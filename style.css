@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Bytesized&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root{
+    --darkerBlue:#1e1e2e;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    background-color: hsl(0, 0%, 8%);
+    color: white;
+    font-family: Arial,sans-serif;
+}
