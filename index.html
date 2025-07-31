@@ -1,1 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Rogerio abestado portfolio </title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- <h1 class="text-3x1 font-bold text-brand bg-blue-500">asndkdskndkansdknaondoandfondsaonodsnf</h1> -->
+     
+<header class="fixed top-0 left-1/4 right-1/4 w-full max-w-[700px] h-[6vh] bg-[--darkerBlue] border border-white rounded-lg mx-auto mt-[clamp(1%,15px,15px)] backdrop-blur z-50">
+  <section class="flex justify-center items-center h-full">
+    <div class=" elements flex items-center justify-center gap-[15%] whitespace-nowrap text-white" style>
+      <p class="text-semibold text-lg">Inicio</p>
+      <p class="text-semibold text-lg">Sobre mim</p>
+      <p class="text-semibold text-lg">Habilidades</p>
+      <p class="text-semibold text-lg">Projetos</p>
+      <p class="text-semibold text-lg">Contato</p>
+    </div>
+  </section>
+</header>
 
+
+
+    <main>
+        
+        <section class="line1 flex relative mt-[18%] justify-around">
+
+            
+            <section class="title">
+                <h1 class="font-inter text-[5.5rem] font-bold  bg-gradient-to-r from-red-500 to-pink-500 bg-clip-text text-5x2 text-transparent"> Eduardo Henrique </h1>
+                <p class="text-[13px]">FrontEnd development and general technology enthusiast</p>
+            </section>
+        </div>
+        
+            <div class="pfp">
+                <div class="img_wrapper relative">
+                    <div class=" absolute rounded-full -z-10 w-64 h-64 bg-gradient-to-t from-pink-500 to-red-500"></div>
+                    <img src="./assets/image.png" alt="profile picture" class="profilepic w-64 h-64 rounded-full object-cover mt-[-50px]">
+                </div>
+            </div>
+        </section>
+
+        <section class="about flex mt-[25%]"> 
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed quis repellendus consequatur beatae ea voluptatum dicta sapiente quam magnam nemo est quisquam placeat earum repudiandae porro necessitatibus, aperiam veritatis neque.</p>
+        </section>
+
+        <section class="dev_project">
+            <div>ronaldo</div>
+        </section>
+
+        <section class="edit_project">
+            <div class="slider_img"></div>
+            <div class="slider_video"></div>
+        </section>
+
+
+</main>
+
+
+    <style>
+
+
+        .profilepic{
+            animation: 2.5s ease-in-out float infinite alternate;
+        }
+
+        .elements p{
+            cursor: pointer;
+        }
+
+
+
+        @keyframes float{
+            from{
+                transform:translateX(10px,10px);
+            }
+            to{
+                transform: translate(-25px, -12px);
+            }
+        }
+    </style>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
